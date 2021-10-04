@@ -1,5 +1,4 @@
 from pydantic import BaseModel
-from handsy.api.models.group import Group
 
 
 class Item(BaseModel):
