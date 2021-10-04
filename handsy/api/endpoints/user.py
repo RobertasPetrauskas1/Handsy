@@ -25,4 +25,4 @@ async def update(id: str, user: User):
 
 @router.delete("/{id}")
 async def delete(id: str):
-    return Response(status_code=200)
+    return Response(status_code=204)
