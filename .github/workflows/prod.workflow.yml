@@ -31,14 +31,14 @@ jobs:
 
     - name: Build and push container image to registry
       run: |
-        docker build . -t saitynai.azurecr.io/saitynai:${{ github.sha }}
-        docker push saitynai.azurecr.io/saitynai:${{ github.sha }}
+        docker build . -t saitynai-cd.azurecr.io/saitynai-cd:${{ github.sha }}
+        docker push saitynai-cd.azurecr.io/saitynai-cd:${{ github.sha }}
 
 
     - name: Deploy to App Service
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'saitynai-cd'
+        app-name: 'saitynai'
         images: 'saitynai.azurecr.io/saitynai:${{ github.sha }}'
         slot-name: 'staging'
 
