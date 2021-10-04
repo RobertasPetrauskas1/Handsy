@@ -38,7 +38,7 @@ jobs:
     - name: Deploy to App Service
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'saitynai'
+        app-name: 'saitynai-cd'
         images: 'saitynai.azurecr.io/saitynai:${{ github.sha }}'
         slot-name: 'staging'
 
