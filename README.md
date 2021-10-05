@@ -1,6 +1,6 @@
 # Handsy
 University project to learn SOA and Python with FastAPI
-
+made by Robertas Petrauskas IFF-8/2
 ## Local setup
 1. Clone this repo
 2. Build the docker image with `docker build . -t saitynai`
