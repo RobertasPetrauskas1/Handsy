@@ -1,1 +1,1 @@
-web: gunicorn -w 4 -k uvicorn.workers.UvicornWorker handsy.handsy.api:app
+web: gunicorn -w 4 -k uvicorn.workers.UvicornWorker handsy.api:app
