@@ -9,6 +9,7 @@ uvicorn = "*"
 sqlalchemy = "*"
 pyjwt = "*"
 gunicorn = "*"
+alembic = "*"
 
 [dev-packages]
 
