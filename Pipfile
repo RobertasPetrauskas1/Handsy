@@ -8,6 +8,7 @@ fastapi = "*"
 uvicorn = "*"
 sqlalchemy = "*"
 pyjwt = "*"
+gunicorn = "*"
 
 [dev-packages]
 
