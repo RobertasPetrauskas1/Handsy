@@ -11,6 +11,7 @@ pyjwt = "*"
 gunicorn = "*"
 alembic = "*"
 pydantic = {extras = ["dotenv"], version = "*"}
+asyncpg = "*"
 
 [dev-packages]
 
